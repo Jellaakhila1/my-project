@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+    grid-template-rows: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    border:2px solid aliceblue ;
+    
+    gap:5px;
+    background-color: whitesmoke;
+    
+
+        }
+        .item1{
+            border:2px solid aliceblue;
+            background-color: rgb(37, 39, 39);
+            grid-column: 1/ span 2;
+            grid-row: 1;
+            border-radius:2px ;
+            gap:3px;
+            padding:60px ;
+        margin: 10px 5px 5px 10px;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:50px ;
+        border-radius:12px ;
+        
+            
+        }
+        .item2{
+            border:2px solid aliceblue;
+            background-color: rgb(37, 39, 39);
+        
+            grid-column: 3/ span 4;
+            grid-row: 1;
+            border-radius:2px ;
+            gap:3px;
+            padding:60px ;
+        margin: 10px 5px 5px 10px;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:50px ;
+        border-radius:12px ;
+        
+            
+        }
+        
+        .item3{
+            border:2px solid aliceblue;
+            background-color: rgb(37, 39, 39);
+            padding:60px ;
+            margin: 10px 5px 5px 10px;
+            color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:50px ;
+        border-radius:12px ;
+        
+    
+        }
+        .item4{
+            background-color: rgb(37, 39, 39);
+            grid-column:2/span4 ;
+            grid-row: 2;
+            padding:60px ;
+            margin: 10px 5px 5px 10px;
+            color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:50px ;
+        border-radius:12px ;
+        
+        
+        }
+        .item5{
+            border:2px solid aliceblue ;
+            background-color: rgb(37, 39, 39);
+            grid-column:1/span4 ;
+            grid-row:3 ;
+            padding:60px ;
+            margin: 10px 5px 10px 10px;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:50px ;
+        border-radius:12px ;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">A</div>
+        <div class="item2">B</div>
+        <div class="item3">C</div>
+        <div class="item4">D</div>
+        <div class="item5">E</div>
+        
+        
+
+        
+
+    </div>
+</body>
+</html>
